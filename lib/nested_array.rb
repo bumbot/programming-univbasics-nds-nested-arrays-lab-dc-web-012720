@@ -26,7 +26,8 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   grocery_store = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   
-  grocery_store.sort
+  grocery_store[0].sort
+  grocery_store[1].sort
 end
 
 def matrix_lookup(matrix, row, column)
