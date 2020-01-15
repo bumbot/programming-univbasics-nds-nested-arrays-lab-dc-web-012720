@@ -17,22 +17,7 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  grocery_store = [
-    [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-    ],
-    [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-    ]
-  ]
+  grocery_store = [[CONVENTIONAL_PRODUCE],[ORGANIC_PRODUCE]]
 end
 
 def sorted_matrix
